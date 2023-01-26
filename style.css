@@ -13,3 +13,36 @@
 }
 
 /* your code */
+body{
+  margin: 1em 25%;
+  background-color:#1e3932;
+}
+h1{
+  color: white;
+  font-size: 50px;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.city-list{
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  text-align: right;
+}
+header{
+  font-size: large;
+  background-color:lightgrey;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  padding: 15px;
+}
+.city-item{
+  background-color:  #00754a;
+  margin: 0.5rem;
+  padding: 5px;
+}
